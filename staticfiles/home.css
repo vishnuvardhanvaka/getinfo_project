@@ -147,7 +147,7 @@ section{
 		height: 20%;
 	}
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 480px){
 	.ms{
 		width: 50%;
 		height: 50%;
