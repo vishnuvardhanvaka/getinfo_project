@@ -133,7 +133,7 @@ section{
 
 }
 
-@media (min-width: 500px){
+@media (min-width: 501px){
 	.ms{
 		width: 20%;
 		height: 20%;
@@ -147,7 +147,7 @@ section{
 		height: 20%;
 	}
 }
-@media (min-width: 320px) {
+@media (min-width: 320px) and (max-width:500px) {
 	.ms{
 		width: 50%;
 		height: 50%;
