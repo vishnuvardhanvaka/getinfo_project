@@ -1,0 +1,40 @@
+
+h1{
+	color: black;
+	font-family: sans-serif;
+	background: rgba(255,255,255.5);
+	display: inline-flex;
+	flex-direction: row;
+	align-items: center;
+	border-radius: 20px;
+}
+
+
+.box{
+	position: relative;
+	padding: 20px;
+	background: rgba(0,0,0,0.1);
+	border-radius: 20px;
+	box-shadow: -5px 5px 10px rgba(0,0,0,0.2);
+	display: inline-flex;
+	flex-flow: column wrap;
+	margin: 20px;
+	font-family: sans-serif;
+	transition: all 0.2s linear;
+}
+.box:hover{
+	transform: scale(1.01);
+}
+.fact{
+	text-decoration:underline;
+	font-size:1.3em;
+	color:#0000ff;
+	position: absolute;
+	left: 50px;
+	font-family: sans-serif;
+
+}
+
+.processor{
+	
+}

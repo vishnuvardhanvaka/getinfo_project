@@ -1,0 +1,202 @@
+.welcome{
+margin-right:auto;
+margin-left:auto;
+color:red;
+border:1px solid black;
+border-radius: 20px;
+text-align:center;
+}
+section{
+	border: 1px solid black;
+	display: inline-flex;
+	height: auto;
+	width: 100%;
+	justify-content: space-around;
+	flex-flow: row wrap;
+}
+.ms{
+	border: 1px solid black;
+	position: relative;
+	width: 20%;
+	height: 20%;
+	border-radius: 20px;
+	margin: 5px;
+	text-decoration: none;
+}
+.phone{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+}
+.io{
+	position: absolute;
+	border-radius: 20px;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	color: #ffffff;
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	font-size: 2em;
+	transition: all 0.25s linear;
+}
+.io:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+
+
+.ls{
+	border: 1px solid black;
+	position: relative;
+	width: 20%;
+	height: 20%;
+	border-radius: 20px;
+	text-decoration: none;
+	margin: 5px;
+
+}
+.lap{
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 20px;
+}
+.lo{
+	position: absolute;
+	top:0;
+	left: 0;
+	background: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100%;
+	font-family: sans-serif;
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition: all 0.3s linear;
+	border-radius: 20px;
+	font-size: 2em;
+}
+.lo:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+
+
+
+.ts{
+	border: 1px solid black;
+	width: 20%;
+	height: 20%;
+	position: relative;
+	border-radius: 20px;
+	text-decoration: none;
+	margin: 5px;
+
+}
+.tv{
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+	display: block;
+}
+.to{
+	position: absolute;
+	background: rgba(0,0,0,0.6);
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #ffffff;
+	opacity: 0;
+	font-size: 2em;
+	transition: all 0.3s linear;
+}
+.to:hover{
+	opacity: 1;
+	cursor: pointer;
+
+}
+
+@media screen and (max-width: 1200px){
+	.ms{
+		width: 20%;
+		height: 20%;
+	}
+	.ls{
+		width: 20%;
+		height: 20%;
+	}
+	.ts{
+		width: 20%;
+		height: 20%;
+	}
+}
+@media screen and (max-width: 600px){
+	.ms{
+		width: 50%;
+		height: 50%;
+	}
+	.ls{
+		width: 50%;
+		height: 50%;
+
+	}
+	.ts{
+		width: 50%;
+		height: 50%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
